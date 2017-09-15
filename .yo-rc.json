@@ -1,0 +1,13 @@
+{
+  "@lukechavers/generator-luke": {
+    "projectName": "node-common",
+    "fullName": "Luke Chavers",
+    "emailAddress": "luke@c2cschools.com",
+    "projectDesc": "My person common libraries for Node.js development.",
+    "projectVersion": "5.0.0",
+    "githubOwner": "vmadman",
+    "gitRepoName": "node-common",
+    "vagrantPortStart": 3917,
+    "vagrantPortCount": 3
+  }
+}
