@@ -4,6 +4,7 @@ node_js:
 branches:
   only:
   - master
+  - develop
 notifications:
   email:
     on_failure: always
@@ -11,7 +12,7 @@ install: true
 deploy:
   provider: npm
   email: npm@lukechavers.com
-  api_key:
-    secure: XIsO41SUT3+hihHnVKxS8Mv1PPEO00NsY+nvU6cgU8RNl7UGtevMSih37HDMOC/k8n0ZTP0PCuIdGKMoBi+AIpLN+n2VXRG2rr9ZRRAgf1K5Gc1t6Ae6hdYjorpivvFzvAurZJCXAUa1dysK2ZAnZ/UUq7mkvTXp33aJ4bXSZc4YdkihMDtpevdm3dRaOe1ZRbyxCXN7kOso0YoCBlLnMH1Zm5J5p/GESS9CmnsSUFiQVcQgBO7hzCEPaEaKF2KZKcXEEbh7f7+v/N1rPhnbLeFYfVOps3XdDfP2L0yDGCgmzicyPoI3TBRBDWXacK7hjVw8nls5+RtCsH5AI/cYcWUHSg/YYyI1K94bWJF1A14uxL3dDtbqSSkdTq13Q72pnKTymXHhjZYymo+Eat4xtqxN8WxZiiiX0/y0oPPNrvNX8AxKVD73V6YUx+ClebltquaKXqOmoJMj8Phf6e7E4jXBz3zFvoogsKzmjUc2TS1KGgPqDvLkdSkWqaTY65IY1ZWFwbajTicc2scDk2AWt++3JXVD0r1grLkViW032NTtR2ijNWOIKI469HVvttltxIVWlpPs1ciXoz0Jg8jDF1edoiBQ14mmdR4PA6/wbv4ntYN5yn2fLII7Rr8YnzzCXvJQrx16XYiXaH9CWXeKCezA5rukfxMufK/8DfWuz1M=
   on:
     repo: vmadman/node-common
+  api_key:
+    secure: Ut5p02611pqSUVd+RcUNlRruTR96RBjQ/OWkMKtCqF0WMMKcc21PBHKwXbW8rIt0F1f5poANrubK+YkJVzw+jMERwsdIw4KKIRdemyFQTnrIJaF/ZWeGnRSepyYG9ysq0mYLeUVRj126ej1OrQ+NOreOf+YOpTpSdFJ7cH2Q19zNNr8YrM56Jg8lylCnXSWrYOiicLlnRaccqktgp0FRKhUyDn5oyNMacIj2tFyrXuPHV+2W6gnB37DwpzKtMxPHBKJGzR6dCDN/aYioUb+K6A7yPU0j5k2uTQ+qnfDPsj+o78BdTtmKo9Nv/uJ2xXYNWvp31ygcIMvlyMa8sCknxE6lNk5UfJV4X5+3hoPuTt4MvOJ7njPnlPCg3QPAu3EReDtfMZXvUhlQiz/5dS+A68c6ldZ4mGXVHLctv0kmGTMbLBRn0ztbFwTFEudcqv/nVZAOBgZxqud1Fa+EWKCr3icZ1Y+oTvQOW7ORaszzzBZmashTcxtoMN7JXLDYopCQPIc9K808T8jnN/luj/8+V7ZNsyH0DNdD7UYTsa1xMTRIM7t5p4dTn7XD2wuA2Cv4/HZWLJbfns9yTILz4c/DPQLA8M30dWIw8876an8j4BLBzLXm3b0VSy1whRC6eHJ9sNwefYvqqTJW5qIozwxAsI6u3zwJejLRHUX+cD59qb0=
