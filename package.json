@@ -1,7 +1,7 @@
 {
   "name": "@lukechavers/node-common",
   "version": "5.0.6",
-  "description": "My person common libraries for Node.js development.",
+  "description": "My personal common libraries for Node.js development.",
   "main": "lib/index.js",
   "license": "MIT",
   "repository": "https://github.com/vmadman/node-common",
